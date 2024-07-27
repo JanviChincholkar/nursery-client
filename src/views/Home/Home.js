@@ -45,7 +45,8 @@ return (
       category={category }
       price={price}
       image={image}
-      description={description} />)
+      description={description} 
+      loadPlants={loadPlants}/>)
   })
 }
        {plants.lengthh === 0 ? "Loading.....!" : null}
