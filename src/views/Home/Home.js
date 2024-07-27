@@ -9,12 +9,12 @@ function Home() {
 const [plants, setPlants] = useState([])
 
 
-const loadPlants =async  () => {
+const loadPlants= async ()=>{
   toast.loading("Loading Plants...")
-const response = await axios.get('https://nursery-client-hfc0.onrender.com/plants')
-toast.dismiss()
-toast.success ("Plants Loaded Sucessfully")
-setPlants(response.data.data)
+ const response  = await axios.get(`https://nursery-server-o1bd.onrender.com/Plants`)
+ toast.dismiss()
+ toast.success("Plant loaded successfully!")
+ setPlants(response.data.data)
 }
 
 useEffect(()=>{
