@@ -46,7 +46,7 @@ return (
       description={description} />)
   })
 }
-       {plants.lengthh == 0 ? "Loading.....!" : null}
+       {plants.lengthh === 0 ? "Loading.....!" : null}
        <Toaster/>
   </div>
 )
