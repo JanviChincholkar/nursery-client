@@ -7,6 +7,7 @@
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     transition: transform 0.2s, box-shadow 0.2s;
     background-color: #f9f9f9;
+    position: relative;
 }
 .plant-title {
     font-size: 24px;
@@ -45,3 +46,13 @@
     text-decoration: none;
     font-size: 16px;
 }
+.plant-card-img{
+    height: 110px;
+    width: 110px;
+    object-fit: cover;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+border-radius: 50px;
+}
+
