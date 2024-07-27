@@ -37,7 +37,7 @@ function AddPlant() {
           
 
   return (
-    <div>
+    <div className='container'>
        <form>
        <input type='text'
         placeholder='Enter plant name'
